@@ -42,8 +42,7 @@ EXISTING_LINK="$(<"$FILE")"
 if [[ "$EXISTING_LINK" =~ $FULL_REGEX ]]; then
   print -- "$EXISTING_LINK" | wl-copy
 
-  notify-send "SJ Pulse 🚀 Link Restored" \
-    "Clipboard did not contain a valid link.\nExisting file link copied back."
+  notify-send "copied existing Link"
 else
   notify-send "SJ Pulse 🚀 Link Error" \
     "Neither clipboard nor file contains a valid SJ Pulse 🚀 share link."
