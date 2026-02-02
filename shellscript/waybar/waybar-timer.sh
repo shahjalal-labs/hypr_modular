@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# waybar 10 mnts descending timer for session tracking
+
 TIMER_FILE="/tmp/waybar_timer"
 DURATION=600 # 10 minutes in seconds
 
